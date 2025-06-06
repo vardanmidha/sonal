@@ -1,0 +1,162 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #89CFF0;
+/*     background-color: blue; */
+
+.main{
+    /* background-color: #fe7bb6; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lumanosimo', cursive;
+    font-weight: 900;
+}
+
+#centreimg{
+    scale: 0.8;
+    position: relative;
+    height: 20rem;
+    transition: 1s;
+}
+
+.but{
+    display: flex;
+}
+
+button{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: skyblue;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 2;
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+}
+
+button:hover{
+    background-color: rgb(83, 189, 232);
+}
+
+#yes:hover{
+    border: 3px solid black;
+    font-size: 1.25rem;
+}
+
+#hearts{
+    position: absolute;
+    top: 45%;
+    right: 71%;
+    scale: 0.5;
+    visibility: hidden;
+    transition: visibility 1s;
+
+    
+}
+
+#date{
+    position: absolute;
+    top: 45%;
+    left: 71%;
+    scale: 0.6;
+    visibility: hidden;
+    transition: visibility 1s;
+    z-index: 1;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #89CFF0;
+    overflow-x: hidden;
+  }
+  
+  .main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: 'Lumanosimo', cursive;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #centreimg {
+    height: 18rem;
+    transition: 1s;
+    margin-bottom: 20px;
+  }
+  
+  .but {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Pacifico', cursive;
+    z-index: 2;
+  }
+  
+  button:hover {
+    background-color: rgb(83, 189, 232);
+  }
+  
+  #yes:hover {
+    border: 3px solid black;
+    font-size: 1.3rem;
+  }
+  
+  /* Added styles for extra images */
+  #hearts, #date {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #hearts {
+    bottom: 30px;
+    left: 30px;
+    visibility: visible;
+  }
+  
+  #date {
+    bottom: 30px;
+    right: 30px;
+    visibility: visible;
+  }
+  
