@@ -1,10 +1,10 @@
-/* *{
+ *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     background-color: #89CFF0;
-/*     background-color: blue; */
+    /* background-color: blue;  */
 
 .main{
     /* background-color: #fe7bb6; */
@@ -138,7 +138,6 @@ button:hover{
     font-size: 1.3rem;
   }
   
-  /* Added styles for extra images */
   #hearts, #date {
     position: absolute;
     width: 180px;
@@ -159,4 +158,5 @@ button:hover{
     right: 30px;
     visibility: visible;
   }
+}
   
